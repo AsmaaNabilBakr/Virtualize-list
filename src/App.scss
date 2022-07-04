@@ -1,0 +1,68 @@
+.inner {
+  margin-top: 1%;
+  .ticket{
+    background-color: rgb(205, 205, 205);
+    margin: 0 2rem;
+    padding: 0 1rem;
+    height: 240px !important;
+    width: -webkit-fill-available;
+    border-radius: 7px;
+    &:nth-child(odd){
+      background-color: #eee !important;
+    }
+    border-left: 4px solid #e60000;
+    &.high{
+      border-left: 4px solid #e60000;
+    }
+    &.med{
+      border-left: 4px solid #eb9800;
+    }
+    &.low{
+      border-left: 4px solid #a8b400;
+    }
+    label {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-transform: capitalize;
+      padding-top: 2%;
+      .status{
+        width: fit-content;
+        margin-right: 10px;
+        padding: 5px 15px;
+        border-radius: 3px;
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 13px;
+        &.New{
+          background: #007c92;
+        }
+        &.InProgress{
+          background: #5e2750;
+        }
+        &.Solved{
+          background: #a8b400;
+        }
+        &.Closed{
+          background: #4a4d4e;
+        }
+      }
+      .lbl{
+        font-weight: bold;
+        font-size: 19px;
+        display: flex;
+        align-items: flex-start;
+        flex-flow: column;
+      }
+      .priority{
+        font-size: 15px;
+      font-weight: normal;
+      color: #333;
+      }
+    }
+    p {
+      max-height: 130px !important;
+      overflow: hidden;
+    }
+  }
+}
