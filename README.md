@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Virtualize List to manage +10000 Items list.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
