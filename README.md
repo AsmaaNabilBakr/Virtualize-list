@@ -13,7 +13,7 @@ to run server
 ### `npm start`
 to run project
 
->> Features 
+> Features 
 
 1. View list with huge items without any performance issue
 2. Add Items
